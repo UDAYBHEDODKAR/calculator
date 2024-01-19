@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cal.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="calculator" >
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button onclick="clearDisplay()"style="background-color:aqua">C</button>
+      <button onclick="appendValue('7')"style="background-color:aqua">7</button>
+      <button onclick="appendValue('8')"style="background-color:aqua">8</button>
+      <button onclick="appendValue('9')"style="background-color:aqua">9</button>
+      <button onclick="appendValue('/')"style="background-color:aqua">/</button>
+      <button onclick="appendValue('4')"style="background-color:aqua">4</button>
+      <button onclick="appendValue('5')"style="background-color:aqua">5</button>
+      <button onclick="appendValue('6')"style="background-color:aqua">6</button>
+      <button onclick="appendValue('*')"style="background-color:aqua">*</button>
+      <button onclick="appendValue('1')"style="background-color:aqua">1</button>
+      <button onclick="appendValue('2')"style="background-color:aqua">2</button>
+      <button onclick="appendValue('3')"style="background-color:aqua">3</button>
+      <button onclick="appendValue('-')"style="background-color:aqua">-</button>
+      <button onclick="appendValue('0')"style="background-color:aqua">0</button>
+      <button onclick="appendValue('.')"style="background-color:aqua">.</button>
+      <button onclick="calculate()"style="background-color:aqua">=</button>
+      <button onclick="appendValue('+')"style="background-color:aqua">+</button>
+    </div>
+  </div>
+  <script src="cal.js"></script>
+</body>
+</html>
